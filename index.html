@@ -2,14 +2,19 @@
 <html>
 
 <head>
+  <script>
+    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
+      // 手機裝置，轉導到 fa
+      window.location.href = 'https://netlify.marsen.me/';
+    } else {
+      // 非手機裝置，轉導到 google
+      window.location.href = 'https://inpas.aiplux.com/';
+    }
+  </script>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Hello World</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <title>智慧財產維護，從我們的日常生活開始</title>
 </head>
-
 <body>
-  Hello world
-  <script src="script.js"></script>
 </body>
 </html>
