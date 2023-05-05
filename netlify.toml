@@ -1,4 +1,0 @@
-[[redirects]]
-  from = "/*"
-  to = "/payment_successful.html"
-  status = 302
